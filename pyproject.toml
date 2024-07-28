@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "queuetools"
+version = "0.1"
+description = "Easily create queues"
+keywords = ["proton", "queue", "data"]
+authors = [
+  { name = "cjenf", email = "cjenf844747@gmail.com" },
+]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+"Source" = "https://github.com/cjenf/queuetools"
+
+[tool.setuptools]
+packages = [
+    "queuetools"
+]
