@@ -1,2 +1,2 @@
-# queuetools
+# queuer
 Easily create queues
