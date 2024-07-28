@@ -5,7 +5,7 @@ Module to create a simple queue.
 from typing import List, Any
 
 
-class Queue:
+class queue:
     def __init__(self) -> None: 
         """
         Initializes a new instance of the Queue class.

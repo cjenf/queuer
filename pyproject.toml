@@ -3,7 +3,7 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "queuetools"
+name = "queuer"
 version = "0.1"
 description = "Easily create queues"
 keywords = ["proton", "queue", "data"]
@@ -23,5 +23,5 @@ dependencies = []
 
 [tool.setuptools]
 packages = [
-    "queuetools"
+    "queuer"
 ]
