@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "queuer"
-version = "0.1"
+version = "0.2"
 description = "Easily create queues"
 keywords = ["proton", "queue", "data"]
 authors = [
