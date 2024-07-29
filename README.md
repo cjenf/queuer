@@ -1,2 +1,7 @@
 # queuer
-Easily create queues
+Easily create queues.
+## Install
+```py
+pip install queuer
+```
+## Usage
