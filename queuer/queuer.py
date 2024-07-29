@@ -84,19 +84,23 @@ class queue:
     def peak(self) -> Any:
         """Return the last item in the queue"""
         return self.queue[-1] if self.queue else None
-    
-    def clear(self) -> None:
-        """Clear the queue"""
-        self.queue.clear()
 
-    def delete(self, item) -> None:
+    def delete(
+            self, 
+            *, 
+            item:Any
+        ) -> None:
         """Delete an item from the queue"""
         assert item in self.queue, "Item not in queue"
         self.queue.remove(self.queue.index(item))
 
+    def clear(self) -> None:
+        """Clear the queue"""
+        self.queue.clear()
+
     def __repr__(self) -> str:
         """Return a string representation of the queue"""
-        return f"Queue({self.queue})"
+        return f"queue({self.queue})"
     
     def __iter__(self):
         """Return an iterator for the queue"""
