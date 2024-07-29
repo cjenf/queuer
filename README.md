@@ -20,3 +20,4 @@ print(queue) # output: queue(1, 2 ,3)
 print(queue.get()) # output: 1
 print(queue) ## output: queue(2, 3)
 ```
+## Others
